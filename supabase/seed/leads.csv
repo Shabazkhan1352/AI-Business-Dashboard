@@ -1,0 +1,56 @@
+id,name,source,stage,value,status,owner
+lead_001,Inaaya  Sankar,Website,Prospect,84276,Active,Mohanlal Raju
+lead_002,Emir Kadakia,Website,Proposal Sent,116792,Active,Vivaan Varghese
+lead_003,Darshit Uppal,Referral,Closed,115900,Active,Oorja Kalita
+lead_004,Jiya Sant,Conference,Negotiation,10778,Active,Purab Bansal
+lead_005,Vedika Barad,Website,Proposal Sent,39335,Active,Indrajit Kannan
+lead_006,Krish Bajaj,Cold Email,Proposal Sent,78519,Active,Dhanush Kota
+lead_007,Neelofar Bansal,Website,Qualified,114392,Active,Ranbir Kohli
+lead_008,Romil Sarin,Website,Qualified,10482,Active,Amani Vaidya
+lead_009,Tara Bahl,Referral,Prospect,37706,Won,Amani Sagar
+lead_010,Azad Ravi,Cold Email,Negotiation,58264,Lost,Emir Venkatesh
+lead_011,Piya Sane,Website,Closed,36029,Lost,Dishani Dyal
+lead_012,Emir Borde,Conference,Prospect,101542,Lost,Oorja Choudhry
+lead_013,Ishaan Apte,Website,Prospect,108202,Won,Dhanuk Tandon
+lead_014,Jayesh Gopal,LinkedIn,Negotiation,34154,Active,Indrajit Kannan
+lead_015,Eshani Chacko,Referral,Qualified,109247,Lost,Vritika Shere
+lead_016,Vedika Edwin,LinkedIn,Proposal Sent,57227,Active,Dhanush Kota
+lead_017,Ryan Dutta,Referral,Qualified,71768,Active,Ranbir Kohli
+lead_018,Baiju Gandhi,Referral,Closed,20118,Lost,Tara Basu
+lead_019,Dishani Saraf,Website,Proposal Sent,39795,Active,Pari Shetty
+lead_020,Ehsaan Karnik,Conference,Qualified,108078,Active,Pari Shetty
+lead_021,Lagan Bajaj,Cold Email,Prospect,80574,Active,Amani Vaidya
+lead_022,Rohan Bava,Conference,Prospect,110710,Active,Emir Venkatesh
+lead_023,Faiyaz Babu,Website,Qualified,14171,Lost,Mohanlal Raju
+lead_024,Elakshi Cherian,Cold Email,Qualified,116151,Active,Ritvik Raval
+lead_025,Sahil Master,Cold Email,Qualified,58528,Active,Riya Kapadia
+lead_026,Pihu Biswas,Referral,Proposal Sent,30144,Active,Dhanuk Tandon
+lead_027,Vritika Gill,Website,Proposal Sent,44446,Active,Uthkarsh Ramachandran
+lead_028,Anay Swamy,Referral,Prospect,61346,Won,Pari Shetty
+lead_029,Eshani Sachar,Referral,Qualified,62954,Won,Madhav Shukla
+lead_030,Mehul Jhaveri,Conference,Negotiation,109336,Won,Riya Shankar
+lead_031,Tarini Sankar,LinkedIn,Prospect,92012,Won,Mohanlal Raju
+lead_032,Shalv Char,LinkedIn,Negotiation,103453,Active,Ritvik Raval
+lead_033,Dhruv De,Website,Negotiation,24313,Active,Vritika Shere
+lead_034,Ehsaan Basu,Conference,Proposal Sent,105727,Active,Oorja Choudhry
+lead_035,Jayan Bora,Cold Email,Prospect,96272,Active,Dhanuk Tandon
+lead_036,Lagan Chadha,Website,Prospect,95128,Active,Purab Bansal
+lead_037,Romil Mangat,LinkedIn,Negotiation,33683,Active,Riya Kapadia
+lead_038,Alia Dalal,Cold Email,Qualified,78060,Active,Damini Ravel
+lead_039,Lagan Chokshi,Conference,Prospect,65901,Won,Ranbir Kohli
+lead_040,Pihu Balan,Cold Email,Qualified,103992,Lost,Pari Shetty
+lead_041,Hridaan Kalla,Cold Email,Qualified,76810,Active,Dishani Dyal
+lead_042,Aaina Kapadia,Conference,Qualified,103536,Active,Oorja Kalita
+lead_043,Trisha Tank,Referral,Negotiation,73327,Active,Vritika Shere
+lead_044,Ojas Reddy,Referral,Qualified,98525,Active,Tara Basu
+lead_045,Dhanuk Setty,Referral,Qualified,75798,Active,Kimaya Handa
+lead_046,Shray Wable,Website,Qualified,25028,Won,Dhanush Kota
+lead_047,Kimaya Dhaliwal,Conference,Qualified,76121,Active,Amani Vaidya
+lead_048,Damini Ahuja,Website,Negotiation,56049,Lost,Kiara Srinivasan
+lead_049,Aniruddh Butala,LinkedIn,Negotiation,105348,Active,Vivaan Varghese
+lead_050,Yashvi Hari,LinkedIn,Closed,44139,Won,Oorja Choudhry
+lead_051,Hrishita Sachar,Cold Email,Proposal Sent,76582,Won,Vritika Shere
+lead_052,Ranbir Sathe,Conference,Prospect,62125,Active,Dhanuk Tandon
+lead_053,Yuvraj  Gokhale,Referral,Proposal Sent,109614,Active,Dishani Dyal
+lead_054,Divij Maharaj,Conference,Closed,86560,Active,Dhanuk Tandon
+lead_055,Aarush Shetty,Cold Email,Proposal Sent,8552,Active,Oorja Choudhry

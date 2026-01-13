@@ -1,0 +1,36 @@
+id,name,client,start_date,deadline,completion_pct,status,budget,owner
+proj_001,Lead Insights Platform v2,Kota-Majumdar,2024-08-04,2025-03-04,8,On Track,103104,Indrajit Kannan
+proj_002,Client Success Tracker v3,"Mani, Seshadri and Virk",2024-05-08,2024-11-25,1,Delayed,40014,Riya Shankar
+proj_003,Client Success Tracker v4,Bath Ltd,2024-05-16,2024-12-26,43,On Track,81985,Dishani Dyal
+proj_004,Real-Time KPI Visualizer v5,Solanki-Kaur,2024-01-02,2024-05-08,64,Delayed,91542,Damini Ravel
+proj_005,Employee Analytics Portal v1,"Dhaliwal, Varughese and Bassi",2024-09-16,2025-04-19,25,On Track,124943,Dishani Dyal
+proj_006,Client Success Tracker v2,"Lata, Thakkar and Sabharwal",2024-09-28,2024-11-27,76,On Track,27552,Damini Ravel
+proj_007,Smart Budget Allocator v3,"Venkataraman, Kala and Mann",2024-06-06,2024-10-05,7,On Track,99364,Dhanush Kota
+proj_008,CRM Automation System v4,D’Alia-Rattan,2024-09-05,2024-11-21,97,At Risk,41483,Kimaya Handa
+proj_009,Real-Time KPI Visualizer v5,Shetty Ltd,2024-03-25,2024-07-30,67,Completed,80461,Mannat Dutt
+proj_010,Client Success Tracker v1,Sridhar-Sibal,2024-04-12,2024-08-29,51,Completed,110180,Amani Sagar
+proj_011,Real-Time KPI Visualizer v2,Chhabra-Sampath,2024-09-21,2025-03-15,15,On Track,33392,Mohanlal Raju
+proj_012,AI-Powered Dashboard v3,Subramaniam PLC,2024-04-27,2024-11-23,28,On Track,117778,Oorja Kalita
+proj_013,AI-Powered Dashboard v4,Venkataraman Group,2024-04-27,2024-07-13,4,Completed,34287,Madhav Shukla
+proj_014,Predictive Sales Engine v5,"Trivedi, Guha and Luthra",2024-05-22,2025-01-08,62,On Track,42342,Emir Venkatesh
+proj_015,Revenue Optimization Tool v1,Sachdev-Dhaliwal,2024-08-30,2024-12-30,100,At Risk,78354,Mannat Dutt
+proj_016,CRM Automation System v2,Gokhale Ltd,2024-02-19,2024-10-04,55,On Track,78883,Indrajit Kannan
+proj_017,AI-Powered Dashboard v3,Sachdev-Chokshi,2024-02-20,2024-05-05,51,Delayed,129935,Damini Ravel
+proj_018,Predictive Sales Engine v4,"Choudhary, Koshy and Balan",2024-04-08,2024-07-25,68,At Risk,80296,Dishani Dyal
+proj_019,Employee Analytics Portal v5,Verma-Balay,2024-08-24,2024-12-25,9,At Risk,137898,Ranbir Kohli
+proj_020,CRM Automation System v1,"Jhaveri, Mangat and Date",2024-01-26,2024-09-08,69,Delayed,37224,Purab Bansal
+proj_021,Predictive Sales Engine v2,"Chana, Lalla and Dyal",2024-03-26,2024-09-06,62,At Risk,138331,Dhanuk Tandon
+proj_022,AI-Powered Dashboard v3,Som-Sahni,2024-03-25,2024-08-29,0,Completed,59760,Indrajit Kannan
+proj_023,Employee Analytics Portal v4,Hayer-Upadhyay,2024-08-04,2025-03-30,93,Completed,97845,Riya Shankar
+proj_024,Real-Time KPI Visualizer v5,"Issac, Kanda and Garg",2024-03-20,2024-07-06,37,On Track,32665,Kiara Srinivasan
+proj_025,Client Success Tracker v1,"Borde, Kara and Edwin",2024-02-01,2024-06-20,7,On Track,87493,Madhav Shukla
+proj_026,Client Success Tracker v2,"Butala, Som and Mahal",2024-03-21,2024-06-03,65,On Track,49356,Dhanush Kota
+proj_027,Revenue Optimization Tool v3,"Madan, Setty and Ghose",2024-02-04,2024-09-23,30,At Risk,148416,Kiara Srinivasan
+proj_028,Predictive Sales Engine v4,"Banik, Dutta and Chakraborty",2024-01-21,2024-08-26,10,At Risk,101503,Kiara Srinivasan
+proj_029,Client Success Tracker v5,Bhardwaj Group,2024-06-10,2024-10-14,26,Delayed,66180,Vritika Shere
+proj_030,Employee Analytics Portal v1,Bava PLC,2024-07-21,2024-10-22,85,At Risk,84929,Mohanlal Raju
+proj_031,CRM Automation System v2,Basak LLC,2024-01-05,2024-06-30,79,Completed,38104,Dhanush Kota
+proj_032,Client Success Tracker v3,Bajwa-Rege,2024-04-19,2024-10-25,33,On Track,70745,Dhanush Kota
+proj_033,Predictive Sales Engine v4,"Ganesh, Chokshi and Bhatnagar",2024-07-08,2024-11-17,20,At Risk,96200,Riya Kapadia
+proj_034,Employee Analytics Portal v5,Joshi-Chandran,2024-09-27,2024-11-28,85,Delayed,64240,Riya Shankar
+proj_035,CRM Automation System v1,Zacharia-Kapoor,2024-03-09,2024-07-14,14,Completed,122310,Ranbir Kohli

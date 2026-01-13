@@ -1,0 +1,26 @@
+id,name,role,tasks_completed,efficiency,availability,email,manager
+emp_001,Uthkarsh Ramachandran,Data Analyst,22,70.73,Busy,uthkarsh.ramachandran@thingslista.com,Priya Nair
+emp_002,Amani Vaidya,Frontend Dev,23,91.36,On Leave,amani.vaidya@thingslista.com,Sneha Kapoor
+emp_003,Dhanush Kota,Project Manager,52,82.24,Available,dhanush.kota@thingslista.com,Kartik Golani
+emp_004,Damini Ravel,Frontend Dev,29,84.66,Available,damini.ravel@thingslista.com,Sneha Kapoor
+emp_005,Kimaya Handa,Frontend Dev,60,88.85,On Leave,kimaya.handa@thingslista.com,Rohit Sharma
+emp_006,Dishani Dyal,Frontend Dev,43,87.09,Available,dishani.dyal@thingslista.com,Priya Nair
+emp_007,Mannat Dutt,Data Analyst,42,79.87,Available,mannat.dutt@thingslista.com,Priya Nair
+emp_008,Vritika Shere,UI/UX Designer,36,72.96,Busy,vritika.shere@thingslista.com,Kartik Golani
+emp_009,Tara Basu,Backend Dev,37,87.51,Available,tara.basu@thingslista.com,Rohit Sharma
+emp_010,Ritvik Raval,QA Engineer,22,98.22,Busy,ritvik.raval@thingslista.com,Kartik Golani
+emp_011,Mohanlal Raju,QA Engineer,33,94.05,On Leave,mohanlal.raju@thingslista.com,Arjun Mehta
+emp_012,Amani Sagar,QA Engineer,27,90.43,Available,amani.sagar@thingslista.com,Priya Nair
+emp_013,Dhanuk Tandon,UI/UX Designer,33,98.57,Available,dhanuk.tandon@thingslista.com,Kartik Golani
+emp_014,Oorja Choudhry,Python Dev,32,83.15,Busy,oorja.choudhry@thingslista.com,Priya Nair
+emp_015,Indrajit Kannan,Backend Dev,37,76.08,Busy,indrajit.kannan@thingslista.com,Kartik Golani
+emp_016,Vivaan Varghese,QA Engineer,55,74.96,On Leave,vivaan.varghese@thingslista.com,Priya Nair
+emp_017,Madhav Shukla,Frontend Dev,44,81.0,On Leave,madhav.shukla@thingslista.com,Sneha Kapoor
+emp_018,Ranbir Kohli,Frontend Dev,58,79.4,Available,ranbir.kohli@thingslista.com,Priya Nair
+emp_019,Kiara Srinivasan,UI/UX Designer,17,93.35,Busy,kiara.srinivasan@thingslista.com,Arjun Mehta
+emp_020,Pari Shetty,Project Manager,28,96.48,On Leave,pari.shetty@thingslista.com,Arjun Mehta
+emp_021,Oorja Kalita,Frontend Dev,56,84.48,On Leave,oorja.kalita@thingslista.com,Rohit Sharma
+emp_022,Riya Shankar,Frontend Dev,31,74.05,On Leave,riya.shankar@thingslista.com,Sneha Kapoor
+emp_023,Riya Kapadia,QA Engineer,31,91.66,Busy,riya.kapadia@thingslista.com,Sneha Kapoor
+emp_024,Emir Venkatesh,Python Dev,38,76.36,Available,emir.venkatesh@thingslista.com,Sneha Kapoor
+emp_025,Purab Bansal,Python Dev,20,91.92,Available,purab.bansal@thingslista.com,Priya Nair
