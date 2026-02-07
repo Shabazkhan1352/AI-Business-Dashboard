@@ -4,13 +4,14 @@ from fastapi import FastAPI, Request, HTTPException, Depends
 from fastapi.middleware.cors import CORSMiddleware
 # --- FIX: Import the utility to generate the OpenAPI schema ---
 from fastapi.openapi.utils import get_openapi
+from pydantic import BaseModel, Field
 
 # Routers for all application modules
 from app.routes import projects, leads, employees, reports
 # The single service for all database interactions
 from app.services.database import db_service
 # Import the AI generation function
-from app.services.ai_module import generate_deep_dive_insights
+from app.services.ai_module import generate_deep_dive_insights, generate_copilot_response
 # Import our security guard
 from app.services.auth import get_current_user
 
@@ -71,6 +72,21 @@ app.include_router(employees.router, prefix="/api/employees", tags=["Employees"]
 app.include_router(reports.router, prefix="/api/reports", tags=["Reports"], responses={404: {"description": "Report not found"}})
 
 # --- API Endpoints (Unchanged) ---
+
+class CopilotRequest(BaseModel):
+    question: str = Field(..., min_length=2, max_length=1000)
+
+
+@app.post("/api/ai/copilot", tags=["AI Insights"])
+async def ai_copilot_chat(payload: CopilotRequest, user: dict = Depends(get_current_user)):
+    try:
+        all_projects = db_service.get_all_projects()
+        all_leads = db_service.get_all_leads()
+        all_employees = db_service.get_all_employees()
+        return generate_copilot_response(payload.question, all_projects, all_leads, all_employees)
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=f"Copilot error: {exc}")
+
 @app.post("/api/insights/deep-dive", tags=["AI Insights"])
 async def get_deep_dive_ai_insights(user: dict = Depends(get_current_user)):
     try:

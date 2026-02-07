@@ -16,16 +16,17 @@ load_dotenv()
 supabase_url: str = os.environ.get("SUPABASE_URL")
 supabase_key: str = os.environ.get("SUPABASE_KEY")
 
-if not supabase_url or not supabase_key:
-    raise ValueError("Supabase credentials not found.")
-
 # Create Supabase client
-try:
-    supabase: Client = create_client(supabase_url, supabase_key)
-    logger.info("✅ Successfully connected to Supabase.")
-except Exception as e:
+if not supabase_url or not supabase_key:
     supabase = None
-    logger.critical(f"🔥 Failed to connect to Supabase: {e}")
+    logger.warning("Supabase credentials not found. API will run in limited mode.")
+else:
+    try:
+        supabase: Client = create_client(supabase_url, supabase_key)
+        logger.info("✅ Successfully connected to Supabase.")
+    except Exception as e:
+        supabase = None
+        logger.critical(f"🔥 Failed to connect to Supabase: {e}")
 
 class SupabaseService:
     # --- THIS FUNCTION IS THE FIX ---
