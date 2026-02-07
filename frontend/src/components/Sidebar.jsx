@@ -1,7 +1,7 @@
 // File: src/components/Sidebar.jsx
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import { LayoutDashboard, FolderOpen, Users, UserCheck, FileText, Settings } from 'lucide-react';
+import { LayoutDashboard, FolderOpen, Users, UserCheck, FileText, Settings, Bot } from 'lucide-react';
 // REPAIR: Import the useAuth hook to get the current user's data.
 import { useAuth } from '../contexts/AuthContext';
 
@@ -11,6 +11,7 @@ const navItems = [
   { name: 'Leads', href: '/leads', icon: Users },
   { name: 'Employees', href: '/employees', icon: UserCheck },
   { name: 'Reports', href: '/reports', icon: FileText },
+  { name: 'AI Copilot', href: '/ai-copilot', icon: Bot },
   { name: 'Settings', href: '/settings', icon: Settings }
 ];
 

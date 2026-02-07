@@ -3,6 +3,7 @@ import React, { useState, useMemo } from 'react';
 import { UserCircle2, PlusCircle, Download, X, Edit, Trash2, Search, ArrowUp, ArrowDown } from 'lucide-react';
 // FIX: Corrected the import paths to accurately point to the contexts directory from the pages directory without file extensions.
 import { useData } from '../contexts/DataContext';
+import { API_BASE_URL, endpoints } from '../utils/api';
 import { useAuth } from '../contexts/AuthContext';
 
 // --- Reusable UI Components ---
@@ -118,7 +119,7 @@ export default function LeadsPage() {
         }
         const headers = { 'Content-Type': 'application/json', 'Authorization': `Bearer ${session.access_token}`};
         const isEditing = !!editingLead;
-        const url = isEditing ? `http://127.0.0.1:8000/api/leads/${editingLead.id}` : 'http://127.0.0.1:8000/api/leads';
+        const url = isEditing ? `${API_BASE_URL}${endpoints.leads}/${editingLead.id}` : `${API_BASE_URL}${endpoints.leads}`;
         const method = isEditing ? 'PUT' : 'POST';
 
         const bodyPayload = {
@@ -166,7 +167,7 @@ export default function LeadsPage() {
         if (!session?.access_token || !deletingLeadId) return;
         
         try {
-            const response = await fetch(`http://127.0.0.1:8000/api/leads/${deletingLeadId}`, {
+            const response = await fetch(`${API_BASE_URL}${endpoints.leads}/${deletingLeadId}`, {
                 method: 'DELETE',
                 headers: { 'Authorization': `Bearer ${session.access_token}` }
             });

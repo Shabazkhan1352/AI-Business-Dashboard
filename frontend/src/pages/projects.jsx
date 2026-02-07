@@ -1,6 +1,7 @@
 import React, { useState, useMemo, useEffect } from 'react'; // Import useEffect
 import { Briefcase, PlusCircle, Download, X, Edit, Trash2, Search, ArrowUp, ArrowDown } from 'lucide-react';
 import { useData } from '../contexts/DataContext';
+import { API_BASE_URL, endpoints } from '../utils/api';
 import { useAuth } from '../contexts/AuthContext';
 
 // --- Reusable KPI Card Component (Unchanged) ---
@@ -131,7 +132,7 @@ export default function ProjectsPage() {
         };
 
         const isEditing = !!editingProject;
-        const url = isEditing ? `http://127.0.0.1:8000/api/projects/${editingProject.id}` : 'http://127.0.0.1:8000/api/projects';
+        const url = isEditing ? `${API_BASE_URL}${endpoints.projects}/${editingProject.id}` : `${API_BASE_URL}${endpoints.projects}`;
         const method = isEditing ? 'PUT' : 'POST';
 
         // --- THIS IS THE FIX FOR THE START DATE ---
@@ -170,7 +171,7 @@ export default function ProjectsPage() {
         }
         const headers = { 'Authorization': `Bearer ${session.access_token}` };
         try {
-            const response = await fetch(`http://127.0.0.1:8000/api/projects/${deletingProjectId}`, { method: 'DELETE', headers });
+            const response = await fetch(`${API_BASE_URL}${endpoints.projects}/${deletingProjectId}`, { method: 'DELETE', headers });
             if (!response.ok) {
                 const errorData = await response.json().catch(() => ({}));
                 throw new Error(errorData.detail || 'Failed to delete project');

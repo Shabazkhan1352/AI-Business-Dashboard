@@ -15,6 +15,7 @@ import {
 import { FileBarChart2, PlusCircle, X, RefreshCw, Trash2, Search } from "lucide-react";
 // FIX: Corrected import paths to remove the file extension, which is the standard for Next.js projects.
 import { useData } from "../contexts/DataContext";
+import { API_BASE_URL, endpoints } from '../utils/api';
 import { useAuth } from "../contexts/AuthContext";
 
 const STATUS_COLORS = { Success: "#34d399", Pending: "#fbbf24", Failed: "#f87171", default: "#94a3b8" };
@@ -49,7 +50,7 @@ const GenerateReportModal = ({ isOpen, onClose, onReportGenerated }) => {
         }
 
         try {
-            const response = await fetch('http://127.0.0.1:8000/api/reports/generate', {
+            const response = await fetch(`${API_BASE_URL}${endpoints.generateReport}`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${session.access_token}` },
                 body: JSON.stringify({ name: reportName, type: reportType }),
@@ -162,7 +163,7 @@ export default function ReportsPage() {
     setIsSubmitting(true);
     setSubmitError(null);
     try {
-        const response = await fetch(`http://127.0.0.1:8000/api/reports/${deletingReport.id}`, {
+        const response = await fetch(`${API_BASE_URL}${endpoints.reports}/${deletingReport.id}`, {
             method: 'DELETE',
             headers: { 'Authorization': `Bearer ${session.access_token}` },
         });

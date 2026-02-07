@@ -5,6 +5,7 @@ import { ResponsiveContainer, PieChart, Pie, Cell, Tooltip as RTooltip, FunnelCh
 // FIX: Corrected the import paths to remove the file extension, which is the standard for Next.js projects.
 import { useData } from "../contexts/DataContext";
 import { useAuth } from "../contexts/AuthContext";
+import { API_BASE_URL, endpoints } from "../utils/api";
 
 // --- Reusable UI Components ---
 
@@ -129,7 +130,7 @@ export default function Dashboard() {
         setDeepDiveInsights(null);
         try {
             if (!session) throw new Error("Authentication error.");
-            const response = await fetch("http://127.0.0.1:8000/api/insights/deep-dive", {
+            const response = await fetch(`${API_BASE_URL}${endpoints.deepDive}`, {
                 method: "POST",
                 headers: { 'Authorization': `Bearer ${session.access_token}` }
             });
